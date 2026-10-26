@@ -279,10 +279,10 @@ fn fs_main(in : VertexOutput) -> @location(0) vec4<f32> {
     </div>
 
     <div class="workspace-layout">
-      <aside id="reader-sidebar" class="reader-sidebar" aria-label="MenÃº de lectura">
+      <aside id="reader-sidebar" class="reader-sidebar" aria-label="Menú de lectura">
         <div class="sidebar-heading">
           <span class="sidebar-title">VirtuaBook App</span>
-          <button id="sidebar-toggle" class="sidebar-toggle" type="button" aria-label="Contraer menÃº lateral" aria-expanded="true" title="Contraer menÃº lateral">
+          <button id="sidebar-toggle" class="sidebar-toggle" type="button" aria-label="Contraer menú lateral" aria-expanded="true" title="Contraer menú lateral">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
           </button>
         </div>
@@ -353,7 +353,7 @@ fn fs_main(in : VertexOutput) -> @location(0) vec4<f32> {
             <span>Acerca de</span>
           </a>
         </nav>
-        <a class="sidebar-brand" href="https://rutamerito.github.io/ANHETech-ERP/" target="_blank" rel="noreferrer">Powered by ANHETech ERPâ„¢</a>
+        <a class="sidebar-brand" href="https://rutamerito.github.io/ANHETech-ERP/" target="_blank" rel="noreferrer">Powered by ANHETech ERP™</a>
       </aside>
 
       <main class="reader-main">
@@ -365,7 +365,7 @@ fn fs_main(in : VertexOutput) -> @location(0) vec4<f32> {
               <svg viewBox="0 0 24 24"><path d="M6 3.75h8l4 4v12.5H6zM14 3.75v4h4M9 13h6M9 16h6" /></svg>
             </span>
             <div class="document-text">
-              <span id="file-name" class="file-name">NingÃºn documento abierto</span>
+              <span id="file-name" class="file-name">Ningún documento abierto</span>
               <span id="document-meta" class="document-meta">Tus archivos permanecen en este dispositivo</span>
             </div>
           </div>
@@ -374,11 +374,11 @@ fn fs_main(in : VertexOutput) -> @location(0) vec4<f32> {
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3.75h10A1.25 1.25 0 0 1 18.25 5v14A1.25 1.25 0 0 1 17 20.25H7A1.25 1.25 0 0 1 5.75 19V5A1.25 1.25 0 0 1 7 3.75Z" /><path d="M9 8h6m-6 3h6m-6 3h6" /></svg>
               <span>Lectura</span>
             </button>
-            <button id="mode-single" class="mode-button" type="button" aria-pressed="false" title="Mostrar una pÃ¡gina">
+            <button id="mode-single" class="mode-button" type="button" aria-pressed="false" title="Mostrar una página">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3.75h10A1.25 1.25 0 0 1 18.25 5v14A1.25 1.25 0 0 1 17 20.25H7A1.25 1.25 0 0 1 5.75 19V5A1.25 1.25 0 0 1 7 3.75Z" /><path d="M9 8h6m-6 3h6" /></svg>
-              <span>Una pÃ¡gina</span>
+              <span>Una página</span>
             </button>
-            <button id="mode-book" class="mode-button" type="button" aria-pressed="false" title="Mostrar dos pÃ¡ginas enfrentadas">
+            <button id="mode-book" class="mode-button" type="button" aria-pressed="false" title="Mostrar dos páginas enfrentadas">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.75 5.5h6c1.4 0 2.25.6 2.25 1.5v12c0-.9-.85-1.5-2.25-1.5h-6v-12Zm16.5 0h-6c-1.4 0-2.25.6-2.25 1.5v12c0-.9.85-1.5 2.25-1.5h6v-12Z" /></svg>
               <span>Libro completo</span>
             </button>
@@ -387,26 +387,26 @@ fn fs_main(in : VertexOutput) -> @location(0) vec4<f32> {
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v4h3l4 3.5v-11L7 10H4Z" /><path class="tts-toolbar-waves" d="M14.5 9.2a4 4 0 0 1 0 5.6M17 6.8a7.4 7.4 0 0 1 0 10.4" /></svg>
           </button>
           <div class="zoom-controls" aria-label="Controles de zoom">
-            <button id="zoom-out" class="icon-button" type="button" aria-label="Alejar" title="Alejar">âˆ’</button>
+            <button id="zoom-out" class="icon-button" type="button" aria-label="Alejar" title="Alejar">−</button>
             <span id="zoom-label" class="zoom-label">100%</span>
             <button id="zoom-in" class="icon-button" type="button" aria-label="Acercar" title="Acercar">+</button>
             <button id="zoom-reset" class="fit-button" type="button" title="Restablecer al 100%">100%</button>
             <button id="zoom-fit" class="fit-button" type="button">Ajustar</button>
           </div>
           <div id="annotation-history-controls" class="annotation-history-controls" role="group" aria-label="Historial de anotaciones">
-            <button id="annotations-undo" type="button" aria-label="Deshacer anotaciÃ³n" title="Deshacer" disabled>
+            <button id="annotations-undo" type="button" aria-label="Deshacer anotación" title="Deshacer" disabled>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 14 4 9l5-5M4 9h10a6 6 0 0 1 0 12h-2" /></svg>
               <span>Deshacer</span>
             </button>
-            <button id="annotations-redo" type="button" aria-label="Rehacer anotaciÃ³n" title="Rehacer" disabled>
+            <button id="annotations-redo" type="button" aria-label="Rehacer anotación" title="Rehacer" disabled>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 14 5-5-5-5m5 5H10a6 6 0 0 0 0 12h2" /></svg>
               <span>Rehacer</span>
             </button>
           </div>
           <details class="reader-user-menu">
-            <summary aria-label="MenÃº de usuario">Cuenta <span aria-hidden="true">âŒ„</span></summary>
+            <summary aria-label="Menú de usuario">Cuenta <span aria-hidden="true">⌄</span></summary>
             <div class="reader-user-popover">
-              <button type="button" data-user-action="settings">ConfiguraciÃ³n <small>Tema e interfaz</small></button>
+              <button type="button" data-user-action="settings">Configuración <small>Tema e interfaz</small></button>
               <button type="button" data-user-action="data">Datos del usuario <small>No hay cuentas</small></button>
               <a href="privacy.html">Privacidad</a>
               <a href="about.html">Acerca de</a>
@@ -425,7 +425,7 @@ fn fs_main(in : VertexOutput) -> @location(0) vec4<f32> {
                 <path d="M22 34c6-1 12-.3 17 2M22 42c6-1 12-.3 17 2M57 36c5-2 11-2 17-1M57 44c5-2 11-2 17-1" />
               </svg>
             </div>
-            <h2>Tu prÃ³xima lectura empieza aquÃ­</h2>
+            <h2>Tu próxima lectura empieza aquí</h2>
             <p>Selecciona un archivo PDF de tu dispositivo para abrirlo.</p>
             <label class="empty-open-button" for="pdf-file">Seleccionar un PDF</label>
             <span class="file-note">Compatible con documentos PDF locales</span>
@@ -435,7 +435,7 @@ fn fs_main(in : VertexOutput) -> @location(0) vec4<f32> {
           </div>
         </div>
 
-        <section id="pdf-reading-view" class="pdf-reading-view" aria-label="Lectura de pÃ¡gina PDF" hidden>
+        <section id="pdf-reading-view" class="pdf-reading-view" aria-label="Lectura de página PDF" hidden>
           <div class="reading-view-toolbar">
             <button id="reading-mode-exit" class="fit-button" type="button">Volver al libro 3D</button>
             <div class="reading-history-anchor"></div>
@@ -452,7 +452,7 @@ fn fs_main(in : VertexOutput) -> @location(0) vec4<f32> {
               <button type="button" data-reader-action="exit-tool">Salir de herramienta</button>
             </div>
             <div class="zoom-controls" aria-label="Zoom de lectura">
-              <button id="reading-zoom-out" class="icon-button" type="button" aria-label="Alejar" title="Alejar">âˆ’</button>
+              <button id="reading-zoom-out" class="icon-button" type="button" aria-label="Alejar" title="Alejar">−</button>
               <span id="reading-zoom-label" class="zoom-label">100%</span>
               <button id="reading-zoom-in" class="icon-button" type="button" aria-label="Acercar" title="Acercar">+</button>
             </div>
@@ -505,15 +505,15 @@ fn fs_main(in : VertexOutput) -> @location(0) vec4<f32> {
         </section>
 
         <div class="reader-navigation">
-          <button id="previous-page" class="nav-button" type="button" aria-label="PÃ¡gina anterior" disabled>
+          <button id="previous-page" class="nav-button" type="button" aria-label="Página anterior" disabled>
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 5-7 7 7 7" /></svg>
             <span class="nav-button-text">Anterior</span>
           </button>
           <div class="page-position">
-            <span id="page-label" aria-live="polite">â€”</span>
-            <input id="page-slider" type="range" min="1" max="1" value="1" aria-label="Ir a la pÃ¡gina" disabled />
+            <span id="page-label" aria-live="polite">—</span>
+            <input id="page-slider" type="range" min="1" max="1" value="1" aria-label="Ir a la página" disabled />
           </div>
-          <button id="next-page" class="nav-button" type="button" aria-label="PÃ¡gina siguiente" disabled>
+          <button id="next-page" class="nav-button" type="button" aria-label="Página siguiente" disabled>
             <span class="nav-button-text">Siguiente</span>
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.5 5 7 7-7 7" /></svg>
           </button>
@@ -528,4 +528,4 @@ fn fs_main(in : VertexOutput) -> @location(0) vec4<f32> {
     </div>
 
   </div>
-`,Da();var So=document.querySelector(`.app-shell`),Co=document.querySelector(`#reader-sidebar`),wo=document.querySelector(`#sidebar-toggle`),To=document.querySelector(`#fullscreen-toggle`);wo.addEventListener(`click`,()=>{if(document.fullscreenElement===So){let e=So.classList.toggle(`fullscreen-menu-open`);wo.setAttribute(`aria-expanded`,String(e)),wo.setAttribute(`aria-label`,e?`Ocultar menÃº`:`Mostrar menÃº`),wo.title=e?`Ocultar menÃº`:`Mostrar menÃº`;return}let e=So.classList.toggle(`sidebar-collapsed`);wo.setAttribute(`aria-expanded`,String(!e)),wo.setAttribute(`aria-label`,e?`Expandir menÃº lateral`:`Contraer menÃº lateral`),wo.title=e?`Expandir menÃº lateral`:`Contraer menÃº lateral`,Co.classList.toggle(`is-collapsed`,e)}),To.addEventListener(`click`,async()=>{try{document.fullscreenElement?await document.exitFullscreen():await So.requestFullscreen()}catch(e){console.error(`No se pudo cambiar el modo de pantalla completa:`,e);let t=document.querySelector(`#reader-status`);t.dataset.state=`error`,t.querySelector(`span:last-child`).textContent=`No se pudo cambiar el modo de pantalla completa. ${e.message}`}}),document.addEventListener(`fullscreenchange`,()=>{let e=document.fullscreenElement===So;So.classList.remove(`fullscreen-menu-open`),wo.setAttribute(`aria-expanded`,String(!e)),wo.setAttribute(`aria-label`,e?`Mostrar menÃº`:`Contraer menÃº lateral`),wo.title=e?`Mostrar menÃº`:`Contraer menÃº lateral`,To.setAttribute(`aria-label`,e?`Salir de pantalla completa`:`Pantalla completa`),To.title=e?`Salir de pantalla completa`:`Pantalla completa`,To.querySelector(`span`).textContent=e?`Salir de pantalla completa`:`Pantalla completa`}),document.addEventListener(`pointerdown`,e=>{So.classList.contains(`fullscreen-menu-open`)&&e.target instanceof Node&&!Co.contains(e.target)&&(So.classList.remove(`fullscreen-menu-open`),wo.setAttribute(`aria-expanded`,`false`),wo.setAttribute(`aria-label`,`Mostrar menÃº`),wo.title=`Mostrar menÃº`)}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&So.classList.contains(`fullscreen-menu-open`)&&(e.preventDefault(),So.classList.remove(`fullscreen-menu-open`),wo.setAttribute(`aria-expanded`,`false`),wo.setAttribute(`aria-label`,`Mostrar menÃº`),wo.title=`Mostrar menÃº`)});var Eo=document.querySelector(`#library-view`),Do=document.querySelector(`#reader-card`),Oo=document.querySelector(`#reader-status`),ko=document.querySelector(`#nav-library`),Ao=document.querySelector(`#nav-reader`),jo=document.querySelector(`#pdf-file`);document.addEventListener(`virtuabook:show-reader`,()=>Fo(`reader`));var Mo=null,No=!1,Po=null;function Fo(e){let t=e===`library`,n=Do&&!Do.hidden;Eo&&(Eo.hidden=!t),Do&&(Do.hidden=t),Oo&&(Oo.hidden=t),ko&&ko.classList.toggle(`is-current`,t),Ao&&Ao.classList.toggle(`is-current`,!t),t&&n&&(document.dispatchEvent(new CustomEvent(`virtuabook:reader-exit`)),document.dispatchEvent(new CustomEvent(`virtuabook:ad-opportunity`,{detail:{trigger:`session_end`}}))),t&&Mo&&Mo.render()}ko&&ko.addEventListener(`click`,()=>Fo(`library`)),Ao&&Ao.addEventListener(`click`,e=>{e.preventDefault(),Fo(`reader`)}),jo?.addEventListener(`change`,()=>{let e=[...jo.files??[]];jo.value=``,No||(Po=null,e.length&&Mo&&Mo.addFiles(e)),Fo(`reader`)}),document.addEventListener(`virtuabook:page-position`,e=>{Po&&Mo?.updateProgress&&Mo.updateProgress(Po,e?.detail?.page??1)}),document.querySelector(`#reader-stage`)?.addEventListener(`drop`,e=>{let t=[...e.dataTransfer?.files??[]].filter(e=>e.name.toLowerCase().endsWith(`.pdf`)||e.type===`application/pdf`);Po=null,t.length&&Mo&&Mo.addFiles(t)});async function Io(e){if(!e.pdfBlob)return;let t=new File([e.pdfBlob],e.name,{type:e.pdfBlob.type||`application/pdf`});No=!0,Po=e.id??null;let n=new DataTransfer;n.items.add(t),jo&&(jo.files=n.files,jo.dispatchEvent(new Event(`change`,{bubbles:!0}))),queueMicrotask(()=>{No=!1}),(e.lastPage??1)>1&&document.dispatchEvent(new CustomEvent(`virtuabook:open-at-page`,{detail:{page:e.lastPage}})),Fo(`reader`)}async function Lo(e,t=5e3){let n=document.querySelector(`#app-splash`);if(!n){await e();return}let r=n.querySelector(`.splash-progress-fill`),i=performance.now(),a=!1,o=0,s=setInterval(()=>{o+=((a?100:92)-o)*.14,r&&(r.style.width=(o>99?100:o)+`%`),a&&o>=99.5&&clearInterval(s)},80);try{await e()}catch(e){console.error(e)}let c=Math.max(0,t-(performance.now()-i));await new Promise(e=>setTimeout(e,c)),a=!0,r&&(r.style.width=`100%`),await new Promise(e=>setTimeout(e,260)),n.classList.add(`is-leaving`),await new Promise(e=>setTimeout(()=>{n.hidden=!0,e()},480)),clearInterval(s)}var Ro=`1.2.0`,zo=`virtuabook:termsAcceptedV1`,Bo=document.querySelector(`#terms-screen`),Vo=document.querySelector(`#terms-checkbox`),Ho=document.querySelector(`#terms-accept`),Uo=document.querySelector(`#terms-exit`);function Wo(){try{let e=localStorage.getItem(zo);return e?JSON.parse(e):null}catch{return null}}function Go(){try{localStorage.setItem(zo,JSON.stringify({version:Ro,acceptedAt:new Date().toISOString()}))}catch{}}function Ko(){let e=Wo();return!e||e.version!==Ro}function qo(){return Bo?(Bo.hidden=!1,Bo.classList.add(`is-active`),Vo&&(Vo.checked=!1),Ho&&(Ho.disabled=!0),new Promise(e=>{Ho?.addEventListener(`click`,()=>{Ho.disabled||(Go(),Bo.classList.remove(`is-active`),Bo.hidden=!0,e(!0))},{once:!0})})):Promise.resolve(!1)}Vo?.addEventListener(`change`,()=>{Ho&&(Ho.disabled=!Vo.checked)}),Uo?.addEventListener(`click`,()=>{try{window.close()}catch{}if(typeof history<`u`)try{history.back()}catch{}});var Jo=document.querySelector(`#settings-screen`),Yo=document.querySelector(`#settings-close`),Xo=[...document.querySelectorAll(`input[name="settings-theme"]`)],Zo=[...document.querySelectorAll(`input[name="settings-scale"]`)];function Qo(){let e=yo();Xo.forEach(t=>{t.checked=t.value===e.theme}),Zo.forEach(t=>{t.checked=t.value===e.uiScale})}function $o(){Jo&&(Qo(),Jo.hidden=!1)}function es(){Jo&&(Jo.hidden=!0)}document.addEventListener(`virtuabook:open-settings`,$o),Yo?.addEventListener(`click`,es),Jo?.addEventListener(`click`,e=>{e.target===Jo&&es()}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&Jo&&!Jo.hidden&&es()}),Xo.forEach(e=>e.addEventListener(`change`,()=>{e.checked&&bo({theme:e.value})})),Zo.forEach(e=>e.addEventListener(`change`,()=>{e.checked&&bo({uiScale:e.value})})),window.matchMedia(`(prefers-color-scheme: dark)`).addEventListener(`change`,()=>{let e=yo();e.theme===`auto`&&xo(e)});async function ts(){Mo=await Ha({mount:document.querySelector(`#library-view`),onOpenBook:e=>Io(e)});try{po()}catch(e){console.error(`No se pudo iniciar el módulo de publicidad:`,e)}let e=()=>Fo(`library`),t=async()=>{await Mo.init()};if(Ko()){if(await Lo(async()=>{},5e3),!await qo())return;try{await t()}catch(e){console.error(`No se pudo iniciar la biblioteca:`,e)}e()}else await Lo(async()=>{try{await t()}catch(e){console.error(`No se pudo iniciar la biblioteca:`,e)}},5e3),e()}ts();
+`,Da();var So=document.querySelector(`.app-shell`),Co=document.querySelector(`#reader-sidebar`),wo=document.querySelector(`#sidebar-toggle`),To=document.querySelector(`#fullscreen-toggle`);wo.addEventListener(`click`,()=>{if(document.fullscreenElement===So){let e=So.classList.toggle(`fullscreen-menu-open`);wo.setAttribute(`aria-expanded`,String(e)),wo.setAttribute(`aria-label`,e?`Ocultar menú`:`Mostrar menú`),wo.title=e?`Ocultar menú`:`Mostrar menú`;return}let e=So.classList.toggle(`sidebar-collapsed`);wo.setAttribute(`aria-expanded`,String(!e)),wo.setAttribute(`aria-label`,e?`Expandir menú lateral`:`Contraer menú lateral`),wo.title=e?`Expandir menú lateral`:`Contraer menú lateral`,Co.classList.toggle(`is-collapsed`,e)}),To.addEventListener(`click`,async()=>{try{document.fullscreenElement?await document.exitFullscreen():await So.requestFullscreen()}catch(e){console.error(`No se pudo cambiar el modo de pantalla completa:`,e);let t=document.querySelector(`#reader-status`);t.dataset.state=`error`,t.querySelector(`span:last-child`).textContent=`No se pudo cambiar el modo de pantalla completa. ${e.message}`}}),document.addEventListener(`fullscreenchange`,()=>{let e=document.fullscreenElement===So;So.classList.remove(`fullscreen-menu-open`),wo.setAttribute(`aria-expanded`,String(!e)),wo.setAttribute(`aria-label`,e?`Mostrar menú`:`Contraer menú lateral`),wo.title=e?`Mostrar menú`:`Contraer menú lateral`,To.setAttribute(`aria-label`,e?`Salir de pantalla completa`:`Pantalla completa`),To.title=e?`Salir de pantalla completa`:`Pantalla completa`,To.querySelector(`span`).textContent=e?`Salir de pantalla completa`:`Pantalla completa`}),document.addEventListener(`pointerdown`,e=>{So.classList.contains(`fullscreen-menu-open`)&&e.target instanceof Node&&!Co.contains(e.target)&&(So.classList.remove(`fullscreen-menu-open`),wo.setAttribute(`aria-expanded`,`false`),wo.setAttribute(`aria-label`,`Mostrar menú`),wo.title=`Mostrar menú`)}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&So.classList.contains(`fullscreen-menu-open`)&&(e.preventDefault(),So.classList.remove(`fullscreen-menu-open`),wo.setAttribute(`aria-expanded`,`false`),wo.setAttribute(`aria-label`,`Mostrar menú`),wo.title=`Mostrar menú`)});var Eo=document.querySelector(`#library-view`),Do=document.querySelector(`#reader-card`),Oo=document.querySelector(`#reader-status`),ko=document.querySelector(`#nav-library`),Ao=document.querySelector(`#nav-reader`),jo=document.querySelector(`#pdf-file`);document.addEventListener(`virtuabook:show-reader`,()=>Fo(`reader`));var Mo=null,No=!1,Po=null;function Fo(e){let t=e===`library`,n=Do&&!Do.hidden;Eo&&(Eo.hidden=!t),Do&&(Do.hidden=t),Oo&&(Oo.hidden=t),ko&&ko.classList.toggle(`is-current`,t),Ao&&Ao.classList.toggle(`is-current`,!t),t&&n&&(document.dispatchEvent(new CustomEvent(`virtuabook:reader-exit`)),document.dispatchEvent(new CustomEvent(`virtuabook:ad-opportunity`,{detail:{trigger:`session_end`}}))),t&&Mo&&Mo.render()}ko&&ko.addEventListener(`click`,()=>Fo(`library`)),Ao&&Ao.addEventListener(`click`,e=>{e.preventDefault(),Fo(`reader`)}),jo?.addEventListener(`change`,()=>{let e=[...jo.files??[]];jo.value=``,No||(Po=null,e.length&&Mo&&Mo.addFiles(e)),Fo(`reader`)}),document.addEventListener(`virtuabook:page-position`,e=>{Po&&Mo?.updateProgress&&Mo.updateProgress(Po,e?.detail?.page??1)}),document.querySelector(`#reader-stage`)?.addEventListener(`drop`,e=>{let t=[...e.dataTransfer?.files??[]].filter(e=>e.name.toLowerCase().endsWith(`.pdf`)||e.type===`application/pdf`);Po=null,t.length&&Mo&&Mo.addFiles(t)});async function Io(e){if(!e.pdfBlob)return;let t=new File([e.pdfBlob],e.name,{type:e.pdfBlob.type||`application/pdf`});No=!0,Po=e.id??null;let n=new DataTransfer;n.items.add(t),jo&&(jo.files=n.files,jo.dispatchEvent(new Event(`change`,{bubbles:!0}))),queueMicrotask(()=>{No=!1}),(e.lastPage??1)>1&&document.dispatchEvent(new CustomEvent(`virtuabook:open-at-page`,{detail:{page:e.lastPage}})),Fo(`reader`)}async function Lo(e,t=5e3){let n=document.querySelector(`#app-splash`);if(!n){await e();return}let r=n.querySelector(`.splash-progress-fill`),i=performance.now(),a=!1,o=0,s=setInterval(()=>{o+=((a?100:92)-o)*.14,r&&(r.style.width=(o>99?100:o)+`%`),a&&o>=99.5&&clearInterval(s)},80);try{await e()}catch(e){console.error(e)}let c=Math.max(0,t-(performance.now()-i));await new Promise(e=>setTimeout(e,c)),a=!0,r&&(r.style.width=`100%`),await new Promise(e=>setTimeout(e,260)),n.classList.add(`is-leaving`),await new Promise(e=>setTimeout(()=>{n.hidden=!0,e()},480)),clearInterval(s)}var Ro=`1.2.0`,zo=`virtuabook:termsAcceptedV1`,Bo=document.querySelector(`#terms-screen`),Vo=document.querySelector(`#terms-checkbox`),Ho=document.querySelector(`#terms-accept`),Uo=document.querySelector(`#terms-exit`);function Wo(){try{let e=localStorage.getItem(zo);return e?JSON.parse(e):null}catch{return null}}function Go(){try{localStorage.setItem(zo,JSON.stringify({version:Ro,acceptedAt:new Date().toISOString()}))}catch{}}function Ko(){let e=Wo();return!e||e.version!==Ro}function qo(){return Bo?(Bo.hidden=!1,Bo.classList.add(`is-active`),Vo&&(Vo.checked=!1),Ho&&(Ho.disabled=!0),new Promise(e=>{Ho?.addEventListener(`click`,()=>{Ho.disabled||(Go(),Bo.classList.remove(`is-active`),Bo.hidden=!0,e(!0))},{once:!0})})):Promise.resolve(!1)}Vo?.addEventListener(`change`,()=>{Ho&&(Ho.disabled=!Vo.checked)}),Uo?.addEventListener(`click`,()=>{try{window.close()}catch{}if(typeof history<`u`)try{history.back()}catch{}});var Jo=document.querySelector(`#settings-screen`),Yo=document.querySelector(`#settings-close`),Xo=[...document.querySelectorAll(`input[name="settings-theme"]`)],Zo=[...document.querySelectorAll(`input[name="settings-scale"]`)];function Qo(){let e=yo();Xo.forEach(t=>{t.checked=t.value===e.theme}),Zo.forEach(t=>{t.checked=t.value===e.uiScale})}function $o(){Jo&&(Qo(),Jo.hidden=!1)}function es(){Jo&&(Jo.hidden=!0)}document.addEventListener(`virtuabook:open-settings`,$o),Yo?.addEventListener(`click`,es),Jo?.addEventListener(`click`,e=>{e.target===Jo&&es()}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&Jo&&!Jo.hidden&&es()}),Xo.forEach(e=>e.addEventListener(`change`,()=>{e.checked&&bo({theme:e.value})})),Zo.forEach(e=>e.addEventListener(`change`,()=>{e.checked&&bo({uiScale:e.value})})),window.matchMedia(`(prefers-color-scheme: dark)`).addEventListener(`change`,()=>{let e=yo();e.theme===`auto`&&xo(e)});async function ts(){Mo=await Ha({mount:document.querySelector(`#library-view`),onOpenBook:e=>Io(e)});try{po()}catch(e){console.error(`No se pudo iniciar el módulo de publicidad:`,e)}let e=()=>Fo(`library`),t=async()=>{await Mo.init()};if(Ko()){if(await Lo(async()=>{},5e3),!await qo())return;try{await t()}catch(e){console.error(`No se pudo iniciar la biblioteca:`,e)}e()}else await Lo(async()=>{try{await t()}catch(e){console.error(`No se pudo iniciar la biblioteca:`,e)}},5e3),e()}ts();
