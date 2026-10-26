@@ -1,0 +1,1 @@
+import{t as e}from"./institutional-C7fKFvhG.js";var t=document.body.dataset.page;e(t);
